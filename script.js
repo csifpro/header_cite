@@ -2,7 +2,7 @@ let level = 0; // починаємо з h1
 
 function addText() {
     const title = document.getElementById("output");
-    if (level < 5) {
+    if (level < 6) {
         level++;
         title.outerHTML = `<h${level} id="output">Heders(h${level})</h${level}>`;
     }   else{

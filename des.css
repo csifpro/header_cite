@@ -1,0 +1,38 @@
+body{
+    background: rgb(127, 7, 239);
+    display: flex;
+    align-items: center;
+    /* по горизонтали */
+    flex-direction: column;
+    /* по вертикали */
+    height: 100vh;
+    /* высота экрана */
+    margin: 0;
+}
+
+.top-text {
+    text-align: center;
+    padding-top: 20px;
+    color: gold;
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bottom-btn {
+    margin-bottom: 0px;
+    align-self: center;
+    /* центрируем кнопку по горизонтали */
+    padding: 20px 40px;
+    font-size: 18px;
+    border-radius: 15px;
+    border-color: black;
+    border-width: medium;
+}
+.output{
+    text-align: center;
+    padding-top: 20px;
+}
+#end{
+    color: rgb(6, 2, 88);
+    font-size: 100px;
+}
